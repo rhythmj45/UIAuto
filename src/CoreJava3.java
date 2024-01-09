@@ -43,6 +43,8 @@ public class CoreJava3 {
 		System.out.println("-----------------------------------");
 		System.out.println("Print Chars of String s in reverse order");
 		
+		//Print chars of String in reverse order
+
 		for (int i=s.length()-1; i>=0;i--) {
 			System.out.println(s.charAt(i));
 		}
